@@ -6,6 +6,12 @@
     margin: 0 auto;
 }
 
+.highcharts-data-label text {
+    /*font-weight: lighter !important;
+    fill: antiquewhite !important;*/
+    font-family: sans-serif !important;
+}
+
 #myDiv,
 #plotly-bar {
     min-width: 600px;

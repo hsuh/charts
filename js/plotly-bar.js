@@ -1,37 +1,40 @@
 (function(window) {
-    window.getData("http://localhost:8002/data/barchart.json").then(function(response) {
-        function getValueForObjName(name) {
-            return function(obj) {
-                if (obj.name == name) {
-                    return obj.value
-                }
-            }
-        }
-        var categories = response.map(function(obj) { return obj["nonaggkey"]; });
-        var rr = response.map(getValueForObjName('response revenue')).filter(Boolean);
-        var r = response.map(getValueForObjName('response')).filter(Boolean);
-        var cost = response.map(getValueForObjName('cost')).filter(Boolean);
+    window.getData("/data/barchart.json").then(function(response) {
+
+        var categories = window.uniq(response.map(function(obj) { return obj["Channel"]; }));
+        var rr = response.map(window.getValueForObjName('response revenue')).filter(window.filterUndefined);
+        var r = response.map(window.getValueForObjName('response')).filter(window.filterUndefined);
+        var cost = response.map(window.getValueForObjName('cost')).filter(window.filterUndefined);
 
         var trace1 = {
             x: categories,
             y: rr,
             name: "Response revenue",
-            type: "bar"
+            type: "scatter"
         };
         var trace2 = {
             x: categories,
             y: r,
             name: "Response",
-            type: "bar"
+            type: "scatter"
         }
         var trace3 = {
             x: categories,
             y: cost,
             name: "Cost",
-            type: "bar"
+            type: "bar",
+            yaxis: "y2"
         }
         var data = [trace1, trace2, trace3];
-        var layout = { barmode: 'group' };
+        var layout = {
+            barmode: 'group',
+            yaxis: { title: 'value' },
+            yaxis2: {
+                title: 'cost',
+                overlaying: 'y',
+                side: 'right'
+            }
+        };
         Plotly.newPlot('plotly-bar', data, layout);
     })
 })(window)

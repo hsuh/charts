@@ -1,15 +1,9 @@
 (function(window) {
-    window.getData("http://localhost:8002/data/barchart.json").then(function(response) {
-        function getValueForObjName(name) {
-            return function(obj) {
-                if (obj.name == name) {
-                    return obj.value
-                }
-            }
-        }
-        var rr = response.map(getValueForObjName('response revenue')).filter(Boolean);
-        var r = response.map(getValueForObjName('response')).filter(Boolean);
-        var cost = response.map(getValueForObjName('cost')).filter(Boolean);
+    window.getData("/data/barchart.json").then(function(response) {
+
+        var rr = response.map(window.getValueForObjName('response revenue')).filter(window.filterUndefined);
+        var r = response.map(window.getValueForObjName('response')).filter(window.filterUndefined);
+        var cost = response.map(window.getValueForObjName('cost')).filter(window.filterUndefined);
 
         Highcharts.chart('highchart-bar', {
             chart: {
@@ -19,7 +13,7 @@
                 text: 'Highchart bar'
             },
             xAxis: {
-                categories: response.map(function(obj) { return obj["nonaggkey"]; })
+                categories: window.uniq(response.map(function(obj) { return obj["Channel"]; }))
             },
             plotOptions: {
                 column: {
@@ -27,17 +21,43 @@
                     borderWidth: 0
                 }
             },
+            yAxis: [{
+                    labels: {
+                        format: '{value}',
+                        style: { color: Highcharts.getOptions().colors[1] }
+                    },
+                    title: {
+                        text: 'Value',
+                        style: { color: Highcharts.getOptions().colors[1] }
+                    }
+                },
+                {
+                    title: {
+                        text: 'Cost',
+                        style: { color: Highcharts.getOptions().colors[0] }
+                    },
+                    labels: {
+                        format: '${value}',
+                        style: {
+                            color: Highcharts.getOptions().colors[0]
+                        }
+                    },
+                    opposite: true
+                }
+            ],
             series: [{
-                    name: 'repsone revenue',
-                    data: rr
+                    name: 'Response revenue',
+                    data: rr,
+                    type: 'line'
                 }, {
-                    name: 'response',
-                    data: r
-
+                    name: 'Response',
+                    data: r,
+                    type: 'line'
                 }, {
-                    name: 'cost',
-                    data: cost
-
+                    name: 'Cost',
+                    data: cost,
+                    type: 'column',
+                    yAxis: 1
                 }
 
             ]

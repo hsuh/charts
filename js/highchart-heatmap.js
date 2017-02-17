@@ -1,24 +1,37 @@
 (function(window) {
-    window.getData("http://localhost:8002/data/heatmap.json").then(function(response) {
+    window.getData("/data/heatmap.json").then(function(response) {
         Highcharts.chart('container', {
             colorAxis: {
                 stops: [
-                    [0, '#ff0000'], //red
-                    [0.002, '#ffff00'], //yellow
-                    [1, '#00ff00'] //green
+                    [0, '#00ff00'], //green
+                    [0.05, '#ffff00'], //yellow
+                    [1, '#ff0000'] //red
                 ],
-                //maxColor: Highcharts.getOptions().colors[1],
-                //type: 'logarithmic'
+                lineColor: "#c4cad3"
+                    //maxColor: Highcharts.getOptions().colors[1],
+                    //type: 'logarithmic'
+            },
+            tooltip: {
+                formatter: function() {
+                    return 'Cost: ' + this.point.value + '<br>' +
+                        'Cost per response: ' + this.point.colorValue;
+                }
             },
             series: [{
                 type: 'treemap',
                 layoutAlgorithm: 'squarified',
 
-                data: response
+                data: response,
+                dataLabels: {
+                    color: '#000000',
+                    shadow: false,
+                    style: { fontWeight: 'normal' }
+                }
             }],
             title: {
                 text: 'Highcharts Heatmap'
             }
         });
+
     });
 })(window)
