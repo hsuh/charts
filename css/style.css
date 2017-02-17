@@ -1,0 +1,15 @@
+#container,
+#highchart-bar {
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+#myDiv,
+#plotly-bar {
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 600px;
+    margin: 0 auto;
+}

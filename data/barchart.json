@@ -1,0 +1,379 @@
+[{
+        "Channel": "BBC AMERCIA",
+        "order": 0,
+        "name": "response revenue",
+        "value": 4354.55509759045,
+        "nonaggkey": "BBC AMERCIA--nonaggkey0"
+    },
+    {
+        "Channel": "BBC AMERCIA",
+        "order": 1,
+        "name": "response",
+        "value": 5039.969040316674,
+        "nonaggkey": "BBC AMERCIA--nonaggkey0"
+    },
+    {
+        "Channel": "BBC AMERCIA",
+        "order": 2,
+        "name": "cost",
+        "value": 108842.5,
+        "nonaggkey": "BBC AMERCIA--nonaggkey0"
+    },
+    {
+        "Channel": "BRAVO",
+        "order": 3,
+        "name": "response",
+        "value": 12674.68267613208,
+        "nonaggkey": "BRAVO--nonaggkey1"
+    },
+    {
+        "Channel": "BRAVO",
+        "order": 4,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "BRAVO--nonaggkey1"
+    },
+    {
+        "Channel": "BRAVO",
+        "order": 5,
+        "name": "cost",
+        "value": 146939.5,
+        "nonaggkey": "BRAVO--nonaggkey1"
+    },
+    {
+        "Channel": "CENTRIC",
+        "order": 6,
+        "name": "response revenue",
+        "value": 11376.587783093568,
+        "nonaggkey": "CENTRIC--nonaggkey2"
+    },
+    {
+        "Channel": "CENTRIC",
+        "order": 7,
+        "name": "response",
+        "value": 32938.72180143253,
+        "nonaggkey": "CENTRIC--nonaggkey2"
+    },
+    {
+        "Channel": "CENTRIC",
+        "order": 8,
+        "name": "cost",
+        "value": 46423.600000000006,
+        "nonaggkey": "CENTRIC--nonaggkey2"
+    },
+    {
+        "Channel": "CLOO",
+        "order": 9,
+        "name": "response revenue",
+        "value": 4692.1100991944495,
+        "nonaggkey": "CLOO--nonaggkey3"
+    },
+    {
+        "Channel": "CLOO",
+        "order": 10,
+        "name": "response",
+        "value": 27449.09169454527,
+        "nonaggkey": "CLOO--nonaggkey3"
+    },
+    {
+        "Channel": "CLOO",
+        "order": 11,
+        "name": "cost",
+        "value": 136680,
+        "nonaggkey": "CLOO--nonaggkey3"
+    },
+    {
+        "Channel": "CNN",
+        "order": 12,
+        "name": "response",
+        "value": 24614.646968680398,
+        "nonaggkey": "CNN--nonaggkey4"
+    },
+    {
+        "Channel": "CNN",
+        "order": 13,
+        "name": "cost",
+        "value": 357986,
+        "nonaggkey": "CNN--nonaggkey4"
+    },
+    {
+        "Channel": "CNN",
+        "order": 14,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "CNN--nonaggkey4"
+    },
+    {
+        "Channel": "COOKING CHANNEL",
+        "order": 15,
+        "name": "response revenue",
+        "value": 2762.1215231521332,
+        "nonaggkey": "COOKING CHANNEL--nonaggkey5"
+    },
+    {
+        "Channel": "COOKING CHANNEL",
+        "order": 16,
+        "name": "response",
+        "value": 27415.70775949205,
+        "nonaggkey": "COOKING CHANNEL--nonaggkey5"
+    },
+    {
+        "Channel": "COOKING CHANNEL",
+        "order": 17,
+        "name": "cost",
+        "value": 40511,
+        "nonaggkey": "COOKING CHANNEL--nonaggkey5"
+    },
+    {
+        "Channel": "DIY",
+        "order": 18,
+        "name": "response",
+        "value": 32619.497670112127,
+        "nonaggkey": "DIY--nonaggkey6"
+    },
+    {
+        "Channel": "DIY",
+        "order": 19,
+        "name": "cost",
+        "value": 145256.5,
+        "nonaggkey": "DIY--nonaggkey6"
+    },
+    {
+        "Channel": "DIY",
+        "order": 20,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "DIY--nonaggkey6"
+    },
+    {
+        "Channel": "FOX NEWS",
+        "order": 21,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "FOX NEWS--nonaggkey7"
+    },
+    {
+        "Channel": "FOX NEWS",
+        "order": 22,
+        "name": "cost",
+        "value": 141652.5,
+        "nonaggkey": "FOX NEWS--nonaggkey7"
+    },
+    {
+        "Channel": "FOX NEWS",
+        "order": 23,
+        "name": "response",
+        "value": 11878.20319063598,
+        "nonaggkey": "FOX NEWS--nonaggkey7"
+    },
+    {
+        "Channel": "HALLMARK",
+        "order": 24,
+        "name": "response revenue",
+        "value": 851.1216938526001,
+        "nonaggkey": "HALLMARK--nonaggkey8"
+    },
+    {
+        "Channel": "HALLMARK",
+        "order": 25,
+        "name": "response",
+        "value": 7020.540175869343,
+        "nonaggkey": "HALLMARK--nonaggkey8"
+    },
+    {
+        "Channel": "HALLMARK",
+        "order": 26,
+        "name": "cost",
+        "value": 13547,
+        "nonaggkey": "HALLMARK--nonaggkey8"
+    },
+    {
+        "Channel": "LIFETIME",
+        "order": 27,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "LIFETIME--nonaggkey9"
+    },
+    {
+        "Channel": "LIFETIME",
+        "order": 28,
+        "name": "response",
+        "value": 23935.47213643445,
+        "nonaggkey": "LIFETIME--nonaggkey9"
+    },
+    {
+        "Channel": "LIFETIME",
+        "order": 29,
+        "name": "cost",
+        "value": 167682.05000000002,
+        "nonaggkey": "LIFETIME--nonaggkey9"
+    },
+    {
+        "Channel": "LMN",
+        "order": 30,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "LMN--nonaggkey10"
+    },
+    {
+        "Channel": "LMN",
+        "order": 31,
+        "name": "response",
+        "value": 19491.975145445096,
+        "nonaggkey": "LMN--nonaggkey10"
+    },
+    {
+        "Channel": "LMN",
+        "order": 32,
+        "name": "cost",
+        "value": 152617.5,
+        "nonaggkey": "LMN--nonaggkey10"
+    },
+    {
+        "Channel": "MTV",
+        "order": 33,
+        "name": "response",
+        "value": 10230.845095221346,
+        "nonaggkey": "MTV--nonaggkey11"
+    },
+    {
+        "Channel": "MTV",
+        "order": 34,
+        "name": "cost",
+        "value": 36480,
+        "nonaggkey": "MTV--nonaggkey11"
+    },
+    {
+        "Channel": "MTV",
+        "order": 35,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "MTV--nonaggkey11"
+    },
+    {
+        "Channel": "NATIONAL GEOGRAPHIC",
+        "order": 36,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "NATIONAL GEOGRAPHIC--nonaggkey12"
+    },
+    {
+        "Channel": "NATIONAL GEOGRAPHIC",
+        "order": 37,
+        "name": "cost",
+        "value": 84617.5,
+        "nonaggkey": "NATIONAL GEOGRAPHIC--nonaggkey12"
+    },
+    {
+        "Channel": "NATIONAL GEOGRAPHIC",
+        "order": 38,
+        "name": "response",
+        "value": 6025.847854777334,
+        "nonaggkey": "NATIONAL GEOGRAPHIC--nonaggkey12"
+    },
+    {
+        "Channel": "OVATION",
+        "order": 39,
+        "name": "response revenue",
+        "value": 6729.00877644822,
+        "nonaggkey": "OVATION--nonaggkey13"
+    },
+    {
+        "Channel": "OVATION",
+        "order": 40,
+        "name": "response",
+        "value": 23187.677869638883,
+        "nonaggkey": "OVATION--nonaggkey13"
+    },
+    {
+        "Channel": "OVATION",
+        "order": 41,
+        "name": "cost",
+        "value": 19890,
+        "nonaggkey": "OVATION--nonaggkey13"
+    },
+    {
+        "Channel": "TRAVEL",
+        "order": 42,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "TRAVEL--nonaggkey14"
+    },
+    {
+        "Channel": "TRAVEL",
+        "order": 43,
+        "name": "response",
+        "value": 8621.25442982064,
+        "nonaggkey": "TRAVEL--nonaggkey14"
+    },
+    {
+        "Channel": "TRAVEL",
+        "order": 44,
+        "name": "cost",
+        "value": 31512,
+        "nonaggkey": "TRAVEL--nonaggkey14"
+    },
+    {
+        "Channel": "TV ONE",
+        "order": 45,
+        "name": "response revenue",
+        "value": 573.34077314636,
+        "nonaggkey": "TV ONE--nonaggkey15"
+    },
+    {
+        "Channel": "TV ONE",
+        "order": 46,
+        "name": "response",
+        "value": 344.495799439459,
+        "nonaggkey": "TV ONE--nonaggkey15"
+    },
+    {
+        "Channel": "TV ONE",
+        "order": 47,
+        "name": "cost",
+        "value": 758,
+        "nonaggkey": "TV ONE--nonaggkey15"
+    },
+    {
+        "Channel": "TVLAND",
+        "order": 48,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "TVLAND--nonaggkey16"
+    },
+    {
+        "Channel": "TVLAND",
+        "order": 49,
+        "name": "response",
+        "value": 14287.290659462506,
+        "nonaggkey": "TVLAND--nonaggkey16"
+    },
+    {
+        "Channel": "TVLAND",
+        "order": 50,
+        "name": "cost",
+        "value": 17538,
+        "nonaggkey": "TVLAND--nonaggkey16"
+    },
+    {
+        "Channel": "USA",
+        "order": 51,
+        "name": "response revenue",
+        "value": 0,
+        "nonaggkey": "USA--nonaggkey17"
+    },
+    {
+        "Channel": "USA",
+        "order": 52,
+        "name": "response",
+        "value": 13021.966454919822,
+        "nonaggkey": "USA--nonaggkey17"
+    },
+    {
+        "Channel": "USA",
+        "order": 53,
+        "name": "cost",
+        "value": 39323,
+        "nonaggkey": "USA--nonaggkey17"
+    }
+]
